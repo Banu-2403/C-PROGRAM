@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+float original_price, final_price;
+printf("Enter the original item price: $");
+scanf("%f", &original_price);
+final_price = original_price - 5.00;
+printf("The price after a $5 discount is: $%.2f\n", final_price);
+return 0;
+}
