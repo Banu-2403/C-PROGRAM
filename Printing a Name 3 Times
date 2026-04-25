@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main()
+{
+char word[20];
+printf("Enter a word: ");
+scanf("%s", word);
+printf("Printing it 3 times:\n");
+for (int i = 1; i <= 3; i++)
+{
+printf("%s\n", word);
+}
+return 0;
+}
