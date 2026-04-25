@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+float bill, tip;
+printf("Enter the total bill amount: $");
+scanf("%f", &bill);
+tip = bill * 0.15;
+printf("The calculated 15%% tip is: $%.2f\n", tip);
+return 0;
+}
