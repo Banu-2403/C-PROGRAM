@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{
+int total_days, weeks, days;
+printf("Enter total number of days: ");
+scanf("%d", &total_days);
+weeks = total_days / 7;
+days = total_days % 7;
+printf("%d days is equal to %d weeks and %d days.\n", total_days, weeks, days);
+return 0;
+}
