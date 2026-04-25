@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main() 
+{
+char initial;
+printf("Enter your first initial: ");
+scanf(" %c", &initial);
+printf("Your initial is: %c\n", initial);
+return 0;
+}
