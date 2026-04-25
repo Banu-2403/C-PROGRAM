@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main() 
+{
+float money, doubled;
+printf("Enter your money amount: $");
+scanf("%f", &money);
+doubled = money * 2;
+printf("If you double it, you get: $%.2f\n", doubled);
+return 0;
+}
