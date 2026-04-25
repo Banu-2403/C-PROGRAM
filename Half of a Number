@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+float number, half;
+printf("Enter a number: ");
+scanf("%f", &number);
+half = number / 2.0;
+printf("Half of %.1f is %.1f\n", number, half);
+return 0;
+}
